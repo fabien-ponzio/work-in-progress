@@ -1,0 +1,95 @@
+/* police d'écriture
+couleur de fond
+images
+box / box radius / box shado
+:hover
+gradient
+::shadow */
+
+.site {
+    font-family: 'Grenze Gotisch', cursive;
+font-size:xx-large;
+text-align: center;
+text-shadow: rgb(77, 81, 85) 0 0 5px;
+background-image: linear-gradient(grey, white);
+}
+.bouclier {
+width: auto; height: 110px;
+}
+
+.titre1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #EAB543;
+}
+
+.pq {
+border-style: double;
+padding-bottom: 20px;
+padding-top: 20px;
+border-radius: 20px;
+margin: 50px;
+background-color:#EAB543;
+font-size: 50px;
+padding-right: 10px;
+}
+
+.pq:hover {
+    box-shadow: grey 20px 20px 10px;
+    transition: 900ms;
+}
+
+.pk{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.qd{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ou{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.coutact{
+    border-style: double;
+    padding-bottom: 20px;
+padding-top: 20px;
+border-radius: 20px;
+background-color:#EAB543;
+font-size: 120px 120px;
+
+margin-right: 40px;
+margin-left: 40px;
+font-size: 50px;
+}
+.coutact:hover{
+    box-shadow: grey 20px 20px 10px;
+    transition: 900ms;
+}
+
+.logo {
+    display: flex; 
+    justify-content: center;
+    width: 500px; height: auto;
+}
+
+ h1:hover{
+    text-shadow: 5px 5px red;
+    transition : 900ms
+}
+
+
+
+
+
